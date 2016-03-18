@@ -1,0 +1,30 @@
+.contenedor {
+	width: 100%;
+	padding: 0% 3%;
+}
+
+.content-interno {
+	width: 85%;
+	display: inline-block;
+	img {
+	    width: 100%;
+ }
+}
+
+.cdr-pink {
+	@include pink;
+    background: #F2AE9C;
+    height: 70px;
+    width: 5%;
+    display: inline-block;
+    margin: 0% 1.2%;
+}
+
+.floatleft {
+	float: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: $font !important;
+}
+

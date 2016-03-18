@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Bebas;
+    src: url(../font/bebas___-webfont.woff);
+}
+
+$font:Bebas;
+
+@mixin pink {
+	width: 10px;
+	background: #F2AE9C;
+}
+
+@mixin texto-naranja ($font, $size, $color){
+	  font-family: $font; 
+	  font-size: $size;
+	  color: $color; 
+}

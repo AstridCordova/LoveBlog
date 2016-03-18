@@ -1,0 +1,266 @@
+/*home*/
+.service_area {
+	padding: 3% 0%;
+	.single_service {
+		padding: 0% 1%;
+		.portfolio, .offer, .follow {
+			width: 33%;
+			p {
+				margin-bottom: 7%;
+			}
+			a {
+			  padding: 2%;
+			  background: #E75F3A;	
+		    }
+			h2 {
+			  @include texto-naranja($font, 20px, #E75F3A);
+			  width: 80%;
+			  display: inline-block;
+		    }
+	        img {
+			  display: inline-block;
+			  width: 15%;
+			  margin-top: 20px;
+			  margin-right: 3%;
+			  vertical-align: top;
+			}
+	    }   
+    }	    
+}
+
+
+.from_blog {
+    .single_blog_post {
+    	width: 25%;
+    	padding: 0% 1%;
+    	margin-top: 2%;
+    	img {
+    		width: 100%;
+    	}
+    	.blog_post_meta {
+    		border: 2px solid #E4E4E4;
+    		border-top: none;
+    		padding: 0% 7%;
+    		h3 {
+    		  @include texto-naranja($font, 18px, #949494);
+    	    }
+    	    h4 {
+              @include texto-naranja($font, 15px, #E75F3A);
+    	    }
+    	}	
+    }
+}
+
+.from_works {
+	padding: 3% 0%;
+	.single_work_container {
+	    .single_work {
+	    	width: 25%;
+	    	padding: 0% 1%;
+	    	margin-top: 2%;
+	    	img {
+	    		width: 100%;
+	    	}
+	    	.blog_post_meta {
+	    		border: 2px solid #E4E4E4;
+	    		border-top: none;
+	    		padding: 0% 7%;
+	    		h3 {
+	    		  @include texto-naranja($font, 18px, #949494);
+	    	    }
+	    	    h4 {
+	              @include texto-naranja($font, 15px, #E75F3A);
+	    	    }
+	    	}	
+	    }
+	}
+}
+
+/*about us */
+.about_content {
+	padding: 3% 0%;
+	.text_about{
+		img {
+			padding: 0% 2% 2% 0%;
+		}
+		blockquote {
+			color: #E8663C;
+			border-left: 15px solid;
+			margin-left: 5%;
+		}
+	}
+}
+
+.categories {
+	p {
+		font-weight: bold;
+		margin: 0px;
+	}
+}
+
+.galery {
+	img {
+		width: 20%;
+		border: 1px solid #E8663C;
+		margin-bottom: 1%;
+	}
+}
+
+/*portfolio*/
+.from_portfolio {
+	padding-bottom:2%;
+    .single_portfolio_post {
+    	width: 25%;
+    	padding: 0% 1%;
+    	margin-top: 2%;
+    	img {
+    		width: 100%;
+    		border: 2px solid #E4E4E4;
+    		&:hover {
+    			border-top: 3px solid #E75F3A;
+    		}
+    	}
+    	.portfolio_post_meta {
+    		border: 2px solid #E4E4E4;
+    		padding: 0% 7%;
+    		margin-top: 1%;
+    		h3 {
+    		  @include texto-naranja($font, 18px, #949494);
+    	    }
+    	    h4 {
+              @include texto-naranja($font, 15px, #E75F3A);
+    	    }
+    	}	
+    }
+}
+
+.botones {
+	padding: 2% 0%;
+	 @include texto-naranja($font, 25px, black);
+	a {
+		&:first-child {
+			color: white;
+		}
+		color: #BDBDBD;
+		font-size: 20px;
+		margin-right: 3%;
+	}
+}
+
+.btn_active {
+	padding: 1%;
+	margin-left: 3%;
+	background: #E75F3A;
+}
+
+/*contact*/
+.contact_content {
+	padding: 3% 0%;
+	.mapa {
+		width: 100%;
+	}
+	.text_form {
+		padding-top : 3%;
+		.text_orange {
+			color: #E75F3A;
+			margin: 0px;
+		}
+		ul {
+			padding-left: 0px;
+			padding-top: 7%;
+		}
+	}
+	.form {
+		padding-top: 3%;
+		textarea {
+			height: 160px;
+		}
+		.submit {
+			@include texto-naranja($font, 15px, #fff);
+			background: #E75F3A;
+			color: white;
+			width: 30%;
+			height: 45px;
+			padding: 2.5%;
+			border: none;
+		}
+		.first-name, .last-name, .email, textarea {
+		   @include texto-naranja($font, 15px, #E75F3A);
+		   border-color: #E75F3A;
+		   margin-bottom: 2%;
+		}
+	}
+}
+
+/* blog*/
+.blog_content {
+	padding: 3% 3.6%;
+	.separador {
+			padding: 1%;
+			margin: 5% 0% 8% 0%;
+	}
+	.single_blog {
+        .date_blog, .text_blog {
+        	padding-top: 3%;
+        }
+		h4 {
+			@include texto-naranja($font, 18px, #E75F3A);
+	    } 
+	    h3 {
+	    	@include texto-naranja($font, 23px, #E75F3A);
+	    }
+		.imagen-blog {
+		    width: 100%;
+		}
+    }
+    .text-bg {
+    	background: url(../images/quote_bg.png);
+    	padding: 4% 3%;
+    	font-size: 20px;
+    	p {
+    		padding-left: 5%;
+    	}
+    }
+    .text-w {
+    	h3 {
+	    	@include texto-naranja($font, 24px, #E75F3A);
+	    	margin-bottom: 0px;
+	    }
+	    span {
+	    	margin: 0px;
+	    	color: #BDBDBD;
+	    }
+	    p {
+	    	padding: 3% 0% 0% 1%;
+	    	font-size: 20px;
+	    }
+    }
+    .botones-numeros {
+    	.btn-number {
+    		font-weight: bold;
+    		padding: 2%;
+    		background: #E75F3A;
+    		color: white;
+    	}
+    }
+}
+
+.img-externa {
+	position: absolute;	
+}
+
+.dos {
+       top: 913px;
+}
+
+.tres {
+	top: 1651px;
+}
+
+.cuatro {
+	top: 2389px;
+}
+
+.cinco {
+     top: 2676px;
+}
